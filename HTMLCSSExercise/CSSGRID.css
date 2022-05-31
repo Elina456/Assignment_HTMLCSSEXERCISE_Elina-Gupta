@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+.grid{
+    display:grid;
+    width:1200px;
+    margin-left:50px;
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows:150px 150px 150px;
+    grid-gap:10px
+
+}
+.grid-item1{
+    text-align:center;
+    background-color:red
+}
+.grid-item2{
+    background-color:blue;
+    text-align:center;
+}
+
+.grid-item3{
+    background-color:brown;
+    grid-template-rows:50px 100px;
+    display:grid;
+    text-align:center;
+}
+.box3{
+    text-align:center
+}
+.box3S{
+    background-color:green;
+    grid-template-columns:200px 200px;
+    grid-template-rows:33px 33px 33px;
+    display:grid;
+}
+.grid-item3s1{
+
+        text-align:center
+}
+.grid-item3s2{
+
+    
+    text-align:center
+}
+.grid-item3s3{
+
+   
+    text-align:center
+}
+.grid-item3s4{
+
+    
+    text-align:center
+    
+}
+.grid-item3s5{
+
+   
+    text-align:center
+}
+.grid-item3s6{
+
+   
+    text-align:center
+}
+
+.grid-item4{
+    
+    background-color:lightcoral;
+    grid-template-rows:50px 50px 50px;
+    grid-template-columns:130px 130px 130px;
+    display:grid;
+    text-align:center;
+
+}
+.grid-item4s1{
+
+    margin-top:30px;
+    text-align:center;
+    background-color:olive
+}
+.grid-item4s2{
+    margin-top:30px;
+    text-align:center;
+    background-color:fuchsia
+}
+.grid-item4s3{
+    margin-top:30px;
+    text-align:center;
+    background-color:aqua
+}
+
+
+.grid-item5{
+    background-color:lavenderblush;
+    text-align:center;
+}
+
+.grid-item6{
+    background-color:darkgoldenrod;
+    text-align:center;
+}
+.grid-item7{
+    background-color:gray;
+    text-align:center;
+}
+.grid-item8{
+    background-color:orchid;
+    text-align:center;
+}
+.grid-item9{
+    background-color:tomato;
+    grid-template-rows:50px 50px 50px;
+    grid-template-columns:100px 100px 100px 100px;
+    display:grid;
+    text-align:center;
+
+}
+.grid-item9s1{
+
+    margin-top:5px;
+    margin-right:3px;
+
+    text-align:center;
+    background-color:olive
+}
+.grid-item9s2{
+    margin-top:5px;
+    margin-right:3px;
+    
+    text-align:center;
+    background-color:fuchsia
+}
+.grid-item9s3{
+    margin-top:5px;
+    margin-right:3px;
+    
+    text-align:center;
+    background-color:aqua;
+}
+.grid-item9s4{
+    margin-top:5px;
+    margin-right:3px;
+    
+    text-align:center;
+    background-color:brown
+}
